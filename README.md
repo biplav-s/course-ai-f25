@@ -11,11 +11,11 @@ Fall 2025, [Course Website](https://sites.google.com/site/biplavsrivastava/teach
 4. Fall 2021, CSCE 590, Github - [Trusted AI](https://github.com/biplav-s/course-tai)
 5. Spring 2021, CSCE 590, Github - [Data to Decisions - Intro to AI](https://github.com/biplav-s/course-d2d-ai)
 
-
-## Notable student projects that students agreed to make public
+# Notable Moments
+## Select projects that attending students agreed to make public
 _After the course_
    
-## A few notable student projects from previous courses that students agreed to make public
+## Select projects from previous courses that students agreed to make public
 1. [Predictive Classification of Aircraft Approach Behaviors](https://github.com/osterholt/PCAAB), by Cam Osterholt (2025)
 2. [ReviewTrust: Scoring Trust in Online Product Reviews](https://github.com/adeldghimfr/Project_Review_Trust_Score), by Adel Dghim (2025)
 3. [Braille Optical Character Recognition, Within a Chatbot](https://github.com/MatthewADH/BrailleOpticalCharacterRecognition), by Matthew Duffell-Hoffman (2023)
