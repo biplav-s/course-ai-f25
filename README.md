@@ -5,7 +5,7 @@ Fall 2025, [Course Website](https://sites.google.com/site/biplavsrivastava/teach
 
 
 ## Github of previous and related courses
-1. Spring 2025, CSCE 581 Github - [Trusted Artificial Intelligence](https://github.com/biplav-s/course-tai-f25), Website - [Course Website](https://sites.google.com/site/biplavsrivastava/teaching/ai-csce-581-spring-2025-trusted-ai)
+1. Spring 2025, CSCE 581 Github - [Trusted Artificial Intelligence](https://github.com/biplav-s/course-tai-s25), Website - [Course Website](https://sites.google.com/site/biplavsrivastava/teaching/ai-csce-581-spring-2025-trusted-ai)
 2. Fall 2024, CSCE 580 Github - [Introduction to Artificial Intelligence](https://github.com/biplav-s/course-ai-f24), Website - [Course Website](https://sites.google.com/site/biplavsrivastava/teaching/ai-csce-580-fall-2024-intro-to-ai)
 3. Fall 2023, CSCE 581 Github - [Trusted Artificial Intelligence](https://github.com/biplav-s/course-ai-tai-f23); Website - [Course Website](https://sites.google.com/site/biplavsrivastava/teaching/ai-csce-581-fall-2023-trusted-ai)
 4. Fall 2021, CSCE 590, Github - [Trusted AI](https://github.com/biplav-s/course-tai)
