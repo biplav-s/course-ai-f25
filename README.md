@@ -1,7 +1,7 @@
 # Material for CSCE 580: Introduction to Artificial Intelligence (Fall 2025) 
 
 Prof. Biplav Srivastava, AI Institute, University of South Carolina
-Fall 2025, [Course Website](https://sites.google.com/site/biplavsrivastava/teaching/ai-csce-581-spring-2025-trusted-ai)
+Fall 2025, [Course Website](https://sites.google.com/site/biplavsrivastava/teaching/ai-csce-580-fall-2025-intro-to-ai)
 
 
 ## Github of previous and related courses
