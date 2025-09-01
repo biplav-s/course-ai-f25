@@ -1,5 +1,5 @@
 <em> **See also** : 
-readings in [AI and NLP](https://github.com/biplav-s/course-ai-f25/blob/main/reading-list/Readme-AI-NLP.md) and [AI Trust](https://github.com/biplav-s/course-ai-f25/blob/main/reading-list/Readme-Trust.md) </em>
+readings in [AI and NLP](./Readme-AI-NLP.md) and [AI Trust](./Readme-Trust.md) </em>
 
 ---
 
@@ -44,14 +44,24 @@ readings in [AI and NLP](https://github.com/biplav-s/course-ai-f25/blob/main/rea
 
 > c. LLMs and reasoning
 > > 1. [Can Large Language Models Reason and Plan?](https://arxiv.org/html/2403.04121v1), S. Kambhampati 2024. _Explains LLMs properties with respect to reasoning and planning_.
-> > 2. 
 
 > d. Prompting resources
 > > 1. [A guide with description about prompting techniques](https://www.promptingguide.ai/introduction)
 > > 2. [The Prompt Report: A Systematic Survey of Prompting Techniques](https://arxiv.org/abs/2406.06608), June 2024 (revised Feb 2025). _A comprehensive survey of prompting approaches across LLM types_.
 > > 3. [Promptify](https://github.com/promptslab/Promptify) - a Python library to automate creating prompts and getting structured results
 > > 4. [AISuite](https://github.com/andrewyng/aisuite) - a Python library providing interface to multiple LLMs for prompting and getting responses
-   
+
+> e. Programmatically using LLMs
+> > 1. [Ollama library](https://github.com/ollama/ollama). Using it for [tool calling](https://www.ibm.com/think/tutorials/local-tool-calling-ollama-granite) - illustrated with Granite.
+>  > 2. One could also use HuggingFace tool - [see course](https://huggingface.co/learn/llm-course/chapter1/1) and LangChain - [see tutorial](https://python.langchain.com/docs/tutorials/).
+
+> f. Learning about finetuning and RAG-ification of LLMs
+> > 1. [How to Fine-Tune Llama 3.1 (8B Instruct)](https://medium.com/@rschaeffer23/how-to-fine-tune-llama-3-1-8b-instruct-bf0a84af7795), [video - finetuning Llama 3.1](https://youtu.be/rpAtVIZB72U?si=CGt_21RQcRSAzwbZ).
+> > 2. [RAG using Llama 2, Langchain and ChromaDB](https://www.kaggle.com/code/gpreda/rag-using-llama-2-langchain-and-chromadb).
+
+> g. Environmental cost of using LLMs
+> > 1. Water cost - [AI has a hidden water cost − here’s how to calculate yours](https://theconversation.com/ai-has-a-hidden-water-cost-heres-how-to-calculate-yours-263252), September 2025. The estimate varies rom 0.26 milliliters to 39 milliliters per prompt depending on the effects of efficiency of data center, AI model and power-generation infrastructure.
+
 ---
 
 5. [ChatGPT](https://openai.com/blog/chatgpt/), from OpenAI - LLM for dialogs
@@ -96,3 +106,4 @@ readings in [AI and NLP](https://github.com/biplav-s/course-ai-f25/blob/main/rea
 7. [DeepSeek R1](https://www.deepseek.com/), from DeepSeek - open weight (source) LLM. 
  > a. A point-of-view [(POV)](https://drive.google.com/file/d/1ErR1xT7ftvmHiUyYrdUbjyd4qCK_FxKX/view?usp=sharing) from [AI for Society](https://ai4society.github.io/) (Feb 2, 2025). 
 
+---

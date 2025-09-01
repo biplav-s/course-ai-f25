@@ -1,5 +1,5 @@
 <em> **See also** : 
-readings in [Large Language Models (LLMs)](https://github.com/biplav-s/course-ai-f25/blob/main/reading-list/Readme-LLMs.md) and [AI and NLP](https://github.com/biplav-s/course-ai-f25/blob/main/reading-list/Readme-AI-NLP.md) </em>
+readings in [Large Language Models (LLMs)](./Readme-LLMs.md) and [AI and NLP](./Readme-AI-NLP.md) </em>
 
 ---
 

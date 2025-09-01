@@ -1,6 +1,6 @@
 ## Sequential Decision Problems - Planning, RL, Multi-Arm Bandit
 <em> **See also** : 
-readings in [Large Language Models (LLMs)](https://github.com/biplav-s/course-ai-f25/blob/main/reading-list/Readme-LLMs.md), [AI and NLP](https://github.com/biplav-s/course-ai-f25/blob/main/reading-list/Readme-AI-NLP.md) and [AI Trust](https://github.com/biplav-s/course-ai-f25/blob/main/reading-list/Readme-Trust.md) </em>
+readings in [Large Language Models (LLMs)](./Readme-LLMs.md), [AI and NLP](./Readme-AI-NLP.md) and [AI Trust](./Readme-Trust.md) </em>
 
 ---
 
