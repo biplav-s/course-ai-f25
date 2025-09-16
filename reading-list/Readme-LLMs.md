@@ -13,7 +13,7 @@ readings in [AI and NLP](./Readme-AI-NLP.md) and [AI Trust](./Readme-Trust.md) <
 10.1145/3490443
 > 2. [A Primer in BERTology: What We Know About How BERT Works](https://aclanthology.org/2020.tacl-1.54) (Rogers et al., TACL 2020)
 > 3. Blogs explaining LLM concepts
-> > a. Training LLMs and related concepts - [The Novice's LLM Training Guide](https://rentry.org/llm-training).
+> > a. Training LLMs and related concepts - [The Novice's LLM Training Guide](https://rentry.org/llm-training). _See also under "4. Technical Aspects"._
 > > 
 > > b. Estimating computing cost of LLM training - [Transformer Math 101](https://blog.eleuther.ai/transformer-math/), in EleutherAI Blog, Apr 2023.
 > > 
@@ -34,30 +34,32 @@ readings in [AI and NLP](./Readme-AI-NLP.md) and [AI Trust](./Readme-Trust.md) <
 
 
 4. LLMs and Various Technical Aspects
-> a. Hallucination
-> > 1. [GPTs and Hallucination- Why do large language models hallucinate?](https://cacm.acm.org/practice/gpts-and-hallucination/),  Jim Waldo and Soline Boussard, Dec 2024. _Explains the concept of truth in philosophy, how we express in languages, LLMs, and why their output will always have made-up content (hallucination)_.
-> > 2. [The Troubling Emergence of Hallucination in Large Language Models - An Extensive Definition, Quantification, and Prescriptive Remediations](https://aclanthology.org/2023.emnlp-main.155/), EMNLP 2023. _Describes hallucination types_.
 
-> b. Synthetic data and impact on LLMs
+> a. Synthetic data and impact on LLMs
 > > 1. [AI models collapse when trained on recursively generated data](https://www.nature.com/articles/s41586-024-07566-y), Nature, 2024. _Explains model collapse when GenAI's data is used for further training_.
 
-
-> c. LLMs and reasoning
-> > 1. [Can Large Language Models Reason and Plan?](https://arxiv.org/html/2403.04121v1), S. Kambhampati 2024. _Explains LLMs properties with respect to reasoning and planning_.
-
-> d. Prompting resources
+> b. **Prompting** resources
 > > 1. [A guide with description about prompting techniques](https://www.promptingguide.ai/introduction)
 > > 2. [The Prompt Report: A Systematic Survey of Prompting Techniques](https://arxiv.org/abs/2406.06608), June 2024 (revised Feb 2025). _A comprehensive survey of prompting approaches across LLM types_.
 > > 3. [Promptify](https://github.com/promptslab/Promptify) - a Python library to automate creating prompts and getting structured results
 > > 4. [AISuite](https://github.com/andrewyng/aisuite) - a Python library providing interface to multiple LLMs for prompting and getting responses
 
-> e. Programmatically using LLMs
+> c. Programmatically using LLMs
 > > 1. [Ollama library](https://github.com/ollama/ollama). Using it for [tool calling](https://www.ibm.com/think/tutorials/local-tool-calling-ollama-granite) - illustrated with Granite.
 >  > 2. One could also use HuggingFace tool - [see course](https://huggingface.co/learn/llm-course/chapter1/1) and LangChain - [see tutorial](https://python.langchain.com/docs/tutorials/).
 
-> f. Learning about finetuning and RAG-ification of LLMs
-> > 1. [How to Fine-Tune Llama 3.1 (8B Instruct)](https://medium.com/@rschaeffer23/how-to-fine-tune-llama-3-1-8b-instruct-bf0a84af7795), [video - finetuning Llama 3.1](https://youtu.be/rpAtVIZB72U?si=CGt_21RQcRSAzwbZ).
-> > 2. [RAG using Llama 2, Langchain and ChromaDB](https://www.kaggle.com/code/gpreda/rag-using-llama-2-langchain-and-chromadb).
+> d. Learning about **finetuning and RAG-ification** of LLMs
+> > 1. On deciding what to do - in-context learning, RAG, finetuning: [Meta's blog](https://ai.meta.com/blog/adapting-large-language-models-llms/), Aug 2024.
+> > 2. [How to Fine-Tune Llama 3.1 (8B Instruct)](https://medium.com/@rschaeffer23/how-to-fine-tune-llama-3-1-8b-instruct-bf0a84af7795), [video - finetuning Llama 3.1](https://youtu.be/rpAtVIZB72U?si=CGt_21RQcRSAzwbZ).
+> > 3. [RAG using Llama 2, Langchain and ChromaDB](https://www.kaggle.com/code/gpreda/rag-using-llama-2-langchain-and-chromadb).
+
+> e. LLMs and **reasoning**
+> > 1. [Can Large Language Models Reason and Plan?](https://arxiv.org/html/2403.04121v1), S. Kambhampati 2024. _Explains LLMs properties with respect to reasoning and planning_.
+
+> f. Result evalaution and **Hallucinations**
+> > 1. [GPTs and Hallucination- Why do large language models hallucinate?](https://cacm.acm.org/practice/gpts-and-hallucination/),  Jim Waldo and Soline Boussard, Dec 2024. _Explains the concept of truth in philosophy, how we express in languages, LLMs, and why their output will always have made-up content (hallucination)_.
+> > 2. [The Troubling Emergence of Hallucination in Large Language Models - An Extensive Definition, Quantification, and Prescriptive Remediations](https://aclanthology.org/2023.emnlp-main.155/), EMNLP 2023. _Describes hallucination types_.
+> > 3. GenAI Results Comparator - [GAICO](https://pypi.org/project/GAICo/) - a Python library or comparing, analyzing, and visualizing outputs from Large Language Models (LLMs).
 
 > g. Environmental cost of using LLMs
 > > 1. Water cost - [AI has a hidden water cost − here’s how to calculate yours](https://theconversation.com/ai-has-a-hidden-water-cost-heres-how-to-calculate-yours-263252), September 2025. The estimate varies rom 0.26 milliliters to 39 milliliters per prompt depending on the effects of efficiency of data center, AI model and power-generation infrastructure.
