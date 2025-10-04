@@ -1,0 +1,490 @@
+{
+  "recipe_name": "egg-drop-chicken-noodle-soup",
+  "food_role": [
+    "Main Course"
+  ],
+  "data_provenance": {
+    "source_url": "https://www.instructables.com/Egg-Drop-Chicken-Noodle-Soup/",
+    "last_system_access": "2024-09-22 14:30:32.965810"
+  },
+  "macronutrients": {},
+  "ingredients": [
+    {
+      "name": "chicken broth",
+      "quantity": {
+        "measure": "4",
+        "unit": "cups"
+      },
+      "allergies": {
+        "id": "",
+        "category": "",
+        "ref": "",
+        "details": ""
+      },
+      "alternative": "",
+      "quality_characteristic": "",
+      "image": "./images/egg-drop-chicken-noodle-soup/ingredients/chicken-broth.jpeg"
+    },
+    {
+      "name": "water",
+      "quantity": {
+        "measure": "1.5",
+        "unit": "cups"
+      },
+      "allergies": {
+        "id": "",
+        "category": "",
+        "ref": "",
+        "details": ""
+      },
+      "alternative": "",
+      "quality_characteristic": "",
+      "image": "./images/egg-drop-chicken-noodle-soup/ingredients/1-5cupwater.jpeg"
+    },
+    {
+      "name": "soy sauce",
+      "quantity": {
+        "measure": "3",
+        "unit": "tbsp"
+      },
+      "allergies": {
+        "id": "",
+        "category": "",
+        "ref": "",
+        "details": ""
+      },
+      "alternative": "",
+      "quality_characteristic": "",
+      "image": "./images/egg-drop-chicken-noodle-soup/ingredients/soysauce.jpeg"
+    },
+    {
+      "name": "garlic cloves",
+      "quantity": {
+        "measure": "3",
+        "unit": ""
+      },
+      "allergies": {
+        "id": "",
+        "category": "",
+        "ref": "",
+        "details": ""
+      },
+      "alternative": "",
+      "quality_characteristic": "smashes",
+      "image": "./images/egg-drop-chicken-noodle-soup/ingredients/smashgarlicclove.jpeg"
+    },
+    {
+      "name": "ginger",
+      "quantity": {
+        "measure": "0.5",
+        "unit": "teaspoon"
+      },
+      "allergies": {
+        "id": "",
+        "category": "",
+        "ref": "",
+        "details": ""
+      },
+      "alternative": "",
+      "quality_characteristic": "grounded",
+      "image": "./images/egg-drop-chicken-noodle-soup/ingredients/groundedginger.jpeg"
+    },
+    {
+      "name": "rice noodles",
+      "quantity": {
+        "measure": "4",
+        "unit": "ounces"
+      },
+      "allergies": {
+        "id": "",
+        "category": "",
+        "ref": "",
+        "details": ""
+      },
+      "alternative": "pad thai noodles",
+      "quality_characteristic": "broken into 3-inch pieces",
+      "image": "./images/egg-drop-chicken-noodle-soup/ingredients/Rice-Noodle-Rice-Vermicelli-Bun-Tuoi.jpg"
+    },
+    {
+      "name": "cornstarch",
+      "quantity": {
+        "measure": "2",
+        "unit": "tbsp"
+      },
+      "allergies": {
+        "id": "0x6cb",
+        "category": [
+          "Maize"
+        ],
+        "ref": [
+          "https://farrp.unl.edu/informallcerealsgrains"
+        ],
+        "details": ""
+      },
+      "alternative": "",
+      "quality_characteristic": "",
+      "image": "./images/egg-drop-chicken-noodle-soup/ingredients/cornstarch.jpeg"
+    },
+    {
+      "name": "egg",
+      "quantity": {
+        "measure": "2",
+        "unit": ""
+      },
+      "allergies": {
+        "id": "0x3eb1",
+        "category": [
+          "eggs"
+        ],
+        "ref": [
+          "https://farrp.unl.edu/informalleggs"
+        ],
+        "details": ""
+      },
+      "alternative": "",
+      "quality_characteristic": "lightly beaten",
+      "image": "./images/egg-drop-chicken-noodle-soup/ingredients/lightlybeatenegg.jpeg"
+    },
+    {
+      "name": "chicken",
+      "quantity": {
+        "measure": "1.5",
+        "unit": "cups"
+      },
+      "allergies": {
+        "id": "0xb74d",
+        "category": [
+          "meat"
+        ],
+        "ref": [
+          "https://farrp.unl.edu/informallothers",
+          "https://www.healthline.com/nutrition/foods/pork",
+          "https://www.healthline.com/health/allergies/most-uncommon-food-allergies#red-meat"
+        ],
+        "details": ""
+      },
+      "alternative": "",
+      "quality_characteristic": "cooked, shredded",
+      "image": "./images/egg-drop-chicken-noodle-soup/ingredients/shreddedcookedchicken.jpg"
+    },
+    {
+      "name": "scallions",
+      "quantity": {
+        "measure": "3",
+        "unit": ""
+      },
+      "allergies": {
+        "id": "",
+        "category": "",
+        "ref": "",
+        "details": ""
+      },
+      "alternative": "",
+      "quality_characteristic": "thinly sliced, optional",
+      "image": "./images/egg-drop-chicken-noodle-soup/ingredients/thinlyslicedscallions.jpeg"
+    }
+  ],
+  "hasDairy": false,
+  "hasMeat": true,
+  "hasNuts": false,
+  "prep_time": "10 minutes",
+  "cook_time": "15 minutes",
+  "serves": "5",
+  "instructions": [
+    {
+      "original_text": "Beat the egg well.Egg drop soup is noted for its strands of shredded egg. To achieve this characteristic look and texture, make sure you blend the egg mixture well, and stir it slowly into the broth.",
+      "input_condition": [
+        "have_egg",
+        "have_chicken_broth"
+      ],
+      "task": [
+        {
+          "action_name": "Beat the egg well",
+          "output_quality": [
+            "Make sure it is free from shredded egg strands.",
+            "Egg mixture should be well blended."
+          ],
+          "background_knowledge": {
+            "tool": [
+              "For beating egg"
+            ],
+            "failure": [
+              "Egg shell fell into the bowl"
+            ]
+          }
+        },
+        {
+          "action_name": "Stir it into the chicken broth.",
+          "output_quality": [],
+          "background_knowledge": {
+            "tool": [],
+            "failure": [
+              "Egg shell fell into the bowl"
+            ]
+          }
+        }
+      ],
+      "output_condition": [
+        "have_egg_chicken_broth_mixture"
+      ],
+      "modality": {
+        "image": [
+          "./images/egg-drop-chicken-noodle-soup/egg-drop-chicken-noodle-soup_2_0.jpg ",
+          "./images/egg-drop-chicken-noodle-soup/egg-drop-chicken-noodle-soup_2_1.jpg "
+        ],
+        "video": " "
+      }
+    },
+    {
+      "original_text": "Shred the chicken",
+      "input_condition": [
+        "have_chicken"
+      ],
+      "task": [
+        {
+          "action_name": "Shred the chicken",
+          "output_quality": [],
+          "background_knowledge": {
+            "tool": [
+              "Shredder tool needed"
+            ],
+            "failure": [
+              "Shredder not present"
+            ]
+          }
+        }
+      ],
+      "output_condition": [
+        "have_shredded_chicken"
+      ],
+      "modality": {
+        "image": [
+          "./images/egg-drop-chicken-noodle-soup/egg-drop-chicken-noodle-soup_3_0.jpg "
+        ],
+        "video": " "
+      }
+    },
+    {
+      "original_text": "Bring the broth, water, soy sauce, garlic and ginger to a boil over medium-high heat in a medium-size saucepan. Reduce heat to medium and cook broth mixture for 10 minutes.",
+      "input_condition": [
+        "have_egg_chicken_broth_mixture",
+        "have_water",
+        "have_soy_sauce",
+        "have_garlic",
+        "have_ginger",
+        "have_mediumsize_saucepan"
+      ],
+      "task": [
+        {
+          "action_name": "Boil broth, water, soy sauce, garlic and ginger",
+          "output_quality": [
+            "Maintain medium-high heat",
+            "Preferable utensil - medium-size saucepan",
+            "Cook for 10 minutes."
+          ],
+          "background_knowledge": {
+            "tool": [
+              "medium size saucepan"
+            ],
+            "failure": [
+              "overcooked broth",
+              "burnt the mixture",
+              "undercooked broth"
+            ]
+          }
+        }
+      ],
+      "output_condition": [
+        "have_cooked_broth_mixture"
+      ],
+      "modality": {
+        "image": [
+          "./images/egg-drop-chicken-noodle-soup/egg-drop-chicken-noodle-soup_4_0.jpg "
+        ],
+        "video": " "
+      }
+    },
+    {
+      "original_text": "Meanwhile, stir together the cornstarch and 2 tablespoons water in a small bowl. Mix it well.Whisk into broth and cook for 1 minute or until thickened.",
+      "input_condition": [
+        "have_cornstarch",
+        "have_water",
+        "have_cooked_broth_mixture",
+        "have_bowl"
+      ],
+      "task": [
+        {
+          "action_name": "Stir cornstarch and 2 tbsp water.",
+          "output_quality": [
+            "Use a whisker to mix well."
+          ],
+          "background_knowledge": {
+            "tool": [],
+            "failure": [
+              "cornstart is not mixed well",
+              "overused cornstarch"
+            ]
+          }
+        },
+        {
+          "action_name": "Cook this mixture for 1 minute",
+          "output_quality": [
+            "Or until thickened."
+          ],
+          "background_knowledge": {
+            "tool": [
+              "mixing bowl",
+              "whisker"
+            ],
+            "failure": [
+              "overcooked broth"
+            ]
+          }
+        }
+      ],
+      "output_condition": [
+        "have_broth_with_cornstarch"
+      ],
+      "modality": {
+        "image": [
+          "./images/egg-drop-chicken-noodle-soup/egg-drop-chicken-noodle-soup_5_0.jpg ",
+          "./images/egg-drop-chicken-noodle-soup/egg-drop-chicken-noodle-soup_5_1.jpg "
+        ],
+        "video": " "
+      }
+    },
+    {
+      "original_text": "Remove the garlic cloves with a slotted spoon. Now add noodles to pot. Cook for 4 minutes till the noodles are cooked.",
+      "input_condition": [
+        "have_broth_with_cornstarch",
+        "have_noodles",
+        "have_pot"
+      ],
+      "task": [
+        {
+          "action_name": "Remove garlic cloves from the broth",
+          "output_quality": [
+            "Use a slotted spoon to do it efficiently."
+          ],
+          "background_knowledge": {
+            "tool": [
+              "Slotted Spoon"
+            ],
+            "failure": []
+          }
+        },
+        {
+          "action_name": "Boil noodles in a pot",
+          "output_quality": [
+            "Cook for 4 minutes."
+          ],
+          "background_knowledge": {
+            "tool": [
+              "Pot"
+            ],
+            "failure": [
+              "overcooked noodles"
+            ]
+          }
+        }
+      ],
+      "output_condition": [
+        "have_boiled_noodles",
+        "have_cooked_broth_mixture_without_garlic"
+      ],
+      "modality": {
+        "image": [
+          "./images/egg-drop-chicken-noodle-soup/egg-drop-chicken-noodle-soup_6_0.jpg "
+        ],
+        "video": " "
+      }
+    },
+    {
+      "original_text": "Stir the soup so it is moving in a circular direction. Drizzle beaten egg into hot broth, stirring constantly.",
+      "input_condition": [
+        "have_boiled_noodles",
+        "have_cooked_broth_mixture_without_garlic",
+        "have_raw_egg"
+      ],
+      "task": [
+        {
+          "action_name": "Add noodles to the broth.",
+          "output_quality": [
+            "Stir the soup."
+          ],
+          "background_knowledge": {
+            "tool": [],
+            "failure": []
+          }
+        },
+        {
+          "action_name": "Beat a raw egg into the broth",
+          "output_quality": [
+            "Keep stirring constantly."
+          ],
+          "background_knowledge": {
+            "tool": [],
+            "failure": [
+              "did not stir well",
+              "egg coagulated"
+            ]
+          }
+        }
+      ],
+      "output_condition": [
+        "have_egg_chicken_noodle_soup"
+      ],
+      "modality": {
+        "image": [
+          "./images/egg-drop-chicken-noodle-soup/egg-drop-chicken-noodle-soup_7_0.jpg ",
+          "./images/egg-drop-chicken-noodle-soup/egg-drop-chicken-noodle-soup_7_1.jpg"
+        ],
+        "video": " "
+      }
+    },
+    {
+      "original_text": "Remove from the heat; stir in onion and chicken. Serve it hot.",
+      "input_condition": [
+        "have_egg_chicken_noodle_soup",
+        "have_onion",
+        "have_chicken"
+      ],
+      "task": [
+        {
+          "action_name": "Remove from the heat.",
+          "output_quality": [],
+          "background_knowledge": {
+            "tool": [],
+            "failure": [
+              "Overcooked",
+              "Burnt"
+            ]
+          }
+        },
+        {
+          "action_name": "Stir in onion and chicken.",
+          "output_quality": [
+            "Serve hot."
+          ],
+          "background_knowledge": {
+            "tool": [],
+            "failure": [
+              "Onion missing"
+            ]
+          }
+        }
+      ],
+      "output_condition": [
+        "recipe_complete"
+      ],
+      "modality": {
+        "image": [
+          "./images/egg-drop-chicken-noodle-soup/egg-drop-chicken-noodle-soup_8_0.jpg",
+          "./images/egg-drop-chicken-noodle-soup/egg-drop-chicken-noodle-soup_8_1.jpg",
+          "./images/egg-drop-chicken-noodle-soup/egg-drop-chicken-noodle-soup_8_2.jpg"
+        ],
+        "video": " "
+      }
+    }
+  ]
+}
