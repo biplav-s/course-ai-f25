@@ -60,6 +60,7 @@ readings in [AI and NLP](./Readme-AI-NLP.md) and [AI Trust](./Readme-Trust.md) <
 > > 1. [GPTs and Hallucination- Why do large language models hallucinate?](https://cacm.acm.org/practice/gpts-and-hallucination/),  Jim Waldo and Soline Boussard, Dec 2024. _Explains the concept of truth in philosophy, how we express in languages, LLMs, and why their output will always have made-up content (hallucination)_.
 > > 2. [The Troubling Emergence of Hallucination in Large Language Models - An Extensive Definition, Quantification, and Prescriptive Remediations](https://aclanthology.org/2023.emnlp-main.155/), EMNLP 2023. _Describes hallucination types_.
 > > 3. GenAI Results Comparator - [GAICO](https://pypi.org/project/GAICo/) - a Python library or comparing, analyzing, and visualizing outputs from Large Language Models (LLMs).
+> > 4. [Three risks inherent in LLMs - hallucinations, prompt injection attacks and Jailbreaks](https://cacm.acm.org/practice/the-price-of-intelligence/), CACM, Sep 2025. _Explains the risks, mitigations techniques_
 
 > g. Environmental cost of using LLMs
 > > 1. Water cost - [AI has a hidden water cost − here’s how to calculate yours](https://theconversation.com/ai-has-a-hidden-water-cost-heres-how-to-calculate-yours-263252), September 2025. The estimate varies rom 0.26 milliliters to 39 milliliters per prompt depending on the effects of efficiency of data center, AI model and power-generation infrastructure.
