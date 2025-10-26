@@ -9,9 +9,10 @@ readings in [AI and NLP](./Readme-AI-NLP.md) and [AI Trust](./Readme-Trust.md) <
 
 
 2. Language models
-> 1. Hang Li, [Language Models: Past, Present, and Future](https://cacm.acm.org/magazines/2022/7/262080-language-models/fulltext), Communications of the ACM, July 2022, Vol. 65 No. 7, Pages 56-63
-10.1145/3490443
+> 1. Hang Li, [Language Models: Past, Present, and Future](https://cacm.acm.org/magazines/2022/7/262080-language-models/fulltext), Communications of the ACM, July 2022, Vol. 65 No. 7, Pages 56-63, DOI 10.1145/3490443
+>    
 > 2. [A Primer in BERTology: What We Know About How BERT Works](https://aclanthology.org/2020.tacl-1.54) (Rogers et al., TACL 2020)
+>    
 > 3. Blogs explaining LLM concepts
 > > a. Training LLMs and related concepts - [The Novice's LLM Training Guide](https://rentry.org/llm-training). _See also under "4. Technical Aspects"._
 > > 
@@ -19,10 +20,12 @@ readings in [AI and NLP](./Readme-AI-NLP.md) and [AI Trust](./Readme-Trust.md) <
 > > 
 > > c. Understanding Transformers - [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
 > > 
+> > d. [A Perspective on Foundation Models in Chemistry](https://pubs.acs.org/doi/10.1021/jacsau.4c01160), March 2025. Reviews creationa and usage of FM/LLMs in Chemistry.
+> 
 > 4. Large Language Model (LLM) size, performance and resource needs 
 > > a. Trade-offs - [In AI, is bigger always better?](https://www.nature.com/articles/d41586-023-00641-w), March 2023.
 
-> > b. "22 times lesser energy thar regular LLM"  - [SpikeGPT: researcher releases code for largest-ever spiking neural network for language generation](https://news.ucsc.edu/2023/03/eshraghian-spikegpt.html), March 2023
+
 
 > > c. How  to choose LLMs - [The Practical Guides for Large Language Models](https://github.com/Mooler0410/LLMsPracticalGuide), April 2023
 
@@ -65,6 +68,7 @@ readings in [AI and NLP](./Readme-AI-NLP.md) and [AI Trust](./Readme-Trust.md) <
 > g. Environmental cost of using LLMs
 > > 1. Water cost - [AI has a hidden water cost − here’s how to calculate yours](https://theconversation.com/ai-has-a-hidden-water-cost-heres-how-to-calculate-yours-263252), September 2025. The estimate varies rom 0.26 milliliters to 39 milliliters per prompt depending on the effects of efficiency of data center, AI model and power-generation infrastructure.
 
+> > 2. "22 times lesser energy thar regular LLM"  - [SpikeGPT: researcher releases code for largest-ever spiking neural network for language generation](https://news.ucsc.edu/2023/03/eshraghian-spikegpt.html), March 2023
 ---
 
 5. [ChatGPT](https://openai.com/blog/chatgpt/), from OpenAI - LLM for dialogs
