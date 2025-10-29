@@ -1,0 +1,9 @@
+Two planners are illustrated:
+a) cloud based  API.planning  (python)
+b) pyperplan   (python)
+   - inside, Java-based Planner4J is also shown for calculator domain (evaluating based on BODMAS)
+
+Each planner is domain-independent and can solve any domain in PDDL. Sample domain and problem files
+are in data or custom-domains folders.r
+
+See SDP readling list for more details at: https://github.com/biplav-s/ai-resources/blob/main/reading-list/Readme-SDP.md
