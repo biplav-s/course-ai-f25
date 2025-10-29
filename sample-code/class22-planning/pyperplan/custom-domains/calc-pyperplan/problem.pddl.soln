@@ -1,0 +1,5 @@
+(do-mult b c bc)
+(do-div d e de)
+(do-add a bc abc)
+(do-minus abc de abcde)
+(do-assign abcde)

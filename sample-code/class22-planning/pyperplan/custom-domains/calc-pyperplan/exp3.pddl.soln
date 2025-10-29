@@ -1,0 +1,3 @@
+(do-mult b c bc)
+(do-add a bc abc)
+(do-assign abc)
