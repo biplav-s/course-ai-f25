@@ -1,6 +1,10 @@
 Two planners are illustrated:
 a) cloud based  API.planning  (python)
-b) pyperplan   (python)
+   - API Based Planner Invocation-PlanUtils.ipynb  // using new planutilslibrary
+   - On Google collab at: https://colab.research.google.com/drive/1z-UndNGsrxKsKN36SUlHV7JkZdgeI1qc?usp=sharing
+b) cloud based  API.planning  (python)
+   - API Based Planner Invocation-PlanUtils.ipynb  // original code
+c) pyperplan   (python)
    - inside, Java-based Planner4J is also shown for calculator domain (evaluating based on BODMAS)
 
 Each planner is domain-independent and can solve any domain in PDDL. Sample domain and problem files
