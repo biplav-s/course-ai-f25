@@ -14,21 +14,23 @@ readings in [Large Language Models (LLMs)](./Readme-LLMs.md), [AI and NLP](./Rea
 2. Code, tools and resources
 > a. [Planning resources](https://github.com/ai4society/planning-resources/tree/main) for getting started with programming based planner invocation, 2024. _Provided by AI4Society_.
 > 
-> b. [API.planning](http://api.planning.domains/) for cloud-based resources for planner.
+> b. [pyperplan](https://github.com/aibasel/pyperplan/) for local planner in Python.
 > 
-> c. Code for generating problemes - [Problem generators](https://github.com/AI-Planning/pddl-generators).
+> c. [API.planning](http://api.planning.domains/) for cloud-based resources for planner.
 > 
-> d. General library for setting up linux-based environments for developing, running, and evaluating planners - [AI-Planning/planutils](https://github.com/ai-planning/planutils).
+> d. Code for generating problemes - [Problem generators](https://github.com/AI-Planning/pddl-generators).
+> 
+> e. General library for setting up linux-based environments for developing, running, and evaluating planners - [AI-Planning/planutils](https://github.com/ai-planning/planutils).
 >
-> e. Library [PddlGym](https://github.com/tomsilver/pddlgym) for the RL community to tackle problems specified in PDDL.
+> f. Library [PddlGym](https://github.com/tomsilver/pddlgym) for the RL community to tackle problems specified in PDDL.
 > 
-> f. [Planning ontology](https://ai4society.github.io/planning-ontology/) for organizing planning related  metadata, support the identification of novel insights via semantic queries, and promote reuse, 2024. _Provided by AI4Society_.
+> g. [Planning ontology](https://ai4society.github.io/planning-ontology/) for organizing planning related  metadata, support the identification of novel insights via semantic queries, and promote reuse, 2024. _Provided by AI4Society_.
 
 
 ---
 
 ## Reinforcement Learning
-1.Introduction and tutorial
+1. Introduction and tutorial
 > a. Introduction to [Sequential Decision Problems](https://www.geeksforgeeks.org/sequential-decision-problems-in-ai/)
 > 
 > b. Introduction to [Multi-Armed Bandit Problems](https://www.tensorflow.org/agents/tutorials/intro_bandit), by Google.
@@ -36,3 +38,12 @@ readings in [Large Language Models (LLMs)](./Readme-LLMs.md), [AI and NLP](./Rea
 > c. Survey on [Applications of Multi-Armed and Contextual Bandits](https://dl.acm.org/doi/10.1109/cec48606.2020.9185782), Djallel Bouneffouf, Irina Rish, and Charu Aggarwal, 2020.
 > 
 > d. A well respected book on [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html), by Barto and Sutton
+2. Model-free v/s model-based RL methods
+In model-free  - the agent learns action to take, but nothing more. In 
+
+> a. Video - [Youtube explanation](https://www.youtube.com/watch?v=mFyqU2dWQE0&t=114s)
+> b. OpenAI - [RL introduction](https://spinningup.openai.com/en/latest/spinningup/rl_intro2.html) 
+> c. Python tennis [Pytennis environment example](https://neptune.ai/blog/model-based-and-model-free-reinforcement-learning-pytennis-case-study) 
+
+3. Code, tools and resources
+> a.  Reinforcement learning algorithms in PyTorch - [Stable baselines](https://stable-baselines3.readthedocs.io/en/master/).
